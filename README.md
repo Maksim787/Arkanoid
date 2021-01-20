@@ -5,6 +5,8 @@
 - Open Arkanoid.exe
 
 ## Usage
+To start game press **Space**
+
 ### Control
 - Moving - **LeftArrow, RightArrow**
 
