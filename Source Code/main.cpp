@@ -86,10 +86,12 @@ int main() {
                 player.move_AI(ball, time);
             }
             else {
-                if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+                if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
                     player.move(-1, time);
-                if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
+                }
+                if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
                     player.move(1, time);
+                }
             }
             ball.move(time);
             if (ball.checkWallCollision() ||
