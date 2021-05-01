@@ -28,6 +28,6 @@ public:
 
     float speed = 500;
     float speed_delta = 30;
-    float minSpeed = 300;
-    float maxSpeed = 700;
+    float minSpeed = 500;
+    float maxSpeed = 1500;
 };

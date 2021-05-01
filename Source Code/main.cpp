@@ -65,11 +65,20 @@ int main() {
                 }
             }
             float time = clock.restart().asSeconds();
-            if (gamePause)
+            if (gamePause) {
+                window.clear();
+                blocks.draw(window);
+                player.draw(window);
+                ball.draw(window);
+                window.display();
                 continue;
+            }
 
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Add)) {
+                std::cout << ball.speed << " ";
                 ball.changeSpeed(10.f);
+                std::cout << ball.speed << "\n";
+                std::cout << "add";
             }
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Subtract)) {
                 ball.changeSpeed(-10.f);
