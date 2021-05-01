@@ -1,6 +1,6 @@
 # Arkanoid
 
-[alt text](https://github.com/Maksim787/Arkanoid/blob/main/Example/Screenshot.png)
+[!alt text](https://github.com/Maksim787/Arkanoid/blob/main/Example/Screenshot.png)
 
 ## Installation
 - Download Release Folder
